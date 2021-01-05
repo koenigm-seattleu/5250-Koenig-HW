@@ -33,8 +33,13 @@ namespace Mine.Views
                     case (int)MenuItemType.Items:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
+
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
+                        break;
+
+                    case (int)MenuItemType.Game:
+                        MenuPages.Add(id, new NavigationPage(new GamePage()));
                         break;
                 }
             }
