@@ -60,7 +60,7 @@ namespace Mine.ViewModels
         /// </summary>
         /// <param name="id">ID of the Record</param>
         /// <returns>The Record from ReadAsync</returns>
-        public async Task<ItemModel> Read(string id)
+        public async Task<ItemModel> ReadAsync(string id)
         {
             var result = await DataStore.ReadAsync(id);
 
@@ -75,7 +75,7 @@ namespace Mine.ViewModels
         public async Task<bool> DeleteAsyc (ItemModel data)
         {
             // Check if the record exists, if it does not, then null is returned
-            var record = await Read(data.Id);
+            var record = await ReadAsync(data.Id);
             if (record == null)
             {
                 return false;
