@@ -41,8 +41,21 @@ namespace Mine.Views
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public async void Delete_Clicked(object sender, EventArgs e)
+        public async void DeleteItem_Clicked(object sender, EventArgs e)
         {
+            MessagingCenter.Send(this, "DeleteItem", viewModel.Item);
+
+            await Navigation.PopModalAsync();
+        }
+
+        /// <summary>
+        /// Cancel the Page
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public async void CancelItem_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync();
         }
     }
 }
