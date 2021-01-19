@@ -11138,10 +11138,10 @@ namespace Mine.Droid
 			public const int icon_delete = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int icon_edit = 2131165306;
+			public const int icon_save = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int icon_save = 2131165307;
+			public const int icon_update = 2131165307;
 			
 			// aapt resource value: 0x7F07006C
 			public const int ic_calendar_black_24dp = 2131165292;

@@ -151,7 +151,7 @@
     <BundleResource Include="Resources\icon_delete.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\icon_edit.png" />
+    <BundleResource Include="Resources\icon_update.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\icon_save.png" />

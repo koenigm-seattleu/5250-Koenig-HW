@@ -101,7 +101,7 @@
     <AndroidResource Include="Resources\drawable\icon_delete.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\icon_edit.png" />
+    <AndroidResource Include="Resources\drawable\icon_update.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon_save.png" />
