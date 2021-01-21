@@ -40,7 +40,5 @@
                 <Label x:Name="CurrentDateTimeLabel"/>
             </StackLayout>
         </ScrollView>
-        
-        
     </Grid>
 </ContentPage>  
