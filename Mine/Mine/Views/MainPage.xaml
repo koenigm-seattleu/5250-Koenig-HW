@@ -22,8 +22,5 @@
                 </OnPlatform>
             </NavigationPage.Icon>
         </NavigationPage>
-        
-        
-        
     </MasterDetailPage.Detail>
 </MasterDetailPage>
