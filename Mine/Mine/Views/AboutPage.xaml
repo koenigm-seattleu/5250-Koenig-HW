@@ -37,6 +37,7 @@
                 <Label Text="CPSC 5250 WQ21"/>
                 <Label Text="Mike Koenig" FontSize="Title"/>
                 <Label Text="Jea Koenig" FontSize="Title"/>
+                <Label Text="Susan Koenig" FontSize="Title"/>
                 <Label x:Name="CurrentDateTimeLabel"/>
             </StackLayout>
         </ScrollView>
