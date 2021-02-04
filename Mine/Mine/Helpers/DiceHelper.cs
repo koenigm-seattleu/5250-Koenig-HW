@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Game.Helpers
+namespace Mine.Helpers
 {
     public static class DiceHelper
     {
